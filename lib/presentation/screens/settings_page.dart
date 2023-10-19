@@ -96,7 +96,7 @@ class SettingsPage extends StatelessWidget {
               SizedBox(height: MediaQuery.sizeOf(context).height * .03),
               ListTile(
                 onTap: () => InAppReview.instance
-                    .openStoreListing(appStoreId: '6469002946'),
+                    .openStoreListing(appStoreId: '6469833644'),
                 leading: Icon(
                   Icons.star_border_outlined,
                   color: Colors.blue,

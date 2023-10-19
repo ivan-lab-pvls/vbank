@@ -8,7 +8,7 @@
 PRODUCT_NAME = banking_app
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.vbanking.app.simulator
+PRODUCT_BUNDLE_IDENTIFIER = com.vbanking.simulator.application
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2023 com.vbanking.app.simulator. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2023 com.vbanking.simulator.application. All rights reserved.
