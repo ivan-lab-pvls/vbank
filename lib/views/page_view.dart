@@ -25,12 +25,12 @@ class MyPageView extends StatelessWidget {
                   right: MediaQuery.sizeOf(context).width * .12,
                   top: MediaQuery.sizeOf(context).height * .05,
                 ),
-                child: const Text(
+                child:  Text(
                   "Basic information about your bank account",
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w700,
-                    color: Color(0xFF003C84),
+                    color: Color.fromARGB(255, 0, 0, 0).withOpacity(.4),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -73,9 +73,9 @@ class MyPageView extends StatelessWidget {
                 child: const Text(
                   "Write your profit",
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 15,
                     fontWeight: FontWeight.w700,
-                    color: Color(0xFF003C84),
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -91,9 +91,9 @@ class MyPageView extends StatelessWidget {
                 child: Text(
                   "Write and manage your profit items!",
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: 15,
                     letterSpacing: .4,
-                    color: const Color(0xFF000000).withOpacity(.4),
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -138,12 +138,12 @@ class MyPageView extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        const Text(
+                         Text(
                           "I'm truly impressed with its features and user-friendliness",
                           style: TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.w700,
-                            color: Color(0xFF003C84),
+                            color: Color.fromARGB(255, 0, 0, 0).withOpacity(.4),
                           ),
                           textAlign: TextAlign.center,
                         ),
@@ -156,7 +156,7 @@ class MyPageView extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 11,
                             letterSpacing: .4,
-                            color: const Color(0xFF000000).withOpacity(.4),
+                            color: Color.fromARGB(255, 0, 0, 0),
                           ),
                           textAlign: TextAlign.center,
                         ),
@@ -183,12 +183,12 @@ class MyPageView extends StatelessWidget {
                 right: MediaQuery.sizeOf(context).width * .12,
                 top: MediaQuery.sizeOf(context).height * .05,
               ),
-              child: const Text(
+              child:  Text(
                 "We value your feedback",
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 15,
                   fontWeight: FontWeight.w700,
-                  color: Color(0xFF003C84),
+                  color: Color.fromARGB(255, 0, 0, 0).withOpacity(.4),
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -204,7 +204,7 @@ class MyPageView extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 12,
                   letterSpacing: .4,
-                  color: const Color(0xFF000000).withOpacity(.4),
+                  color: Color.fromARGB(255, 0, 0, 0),
                 ),
                 textAlign: TextAlign.center,
               ),
