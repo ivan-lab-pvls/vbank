@@ -30,7 +30,7 @@ class MyPageView extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w700,
-                    color: Color.fromARGB(255, 0, 0, 0).withOpacity(.4),
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -48,7 +48,7 @@ class MyPageView extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12,
                     letterSpacing: .4,
-                    color: Color.fromARGB(255, 0, 0, 0).withOpacity(.4),
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -58,7 +58,6 @@ class MyPageView extends StatelessWidget {
         ),
         Column(
           children: [
-            SizedBox(height: MediaQuery.sizeOf(context).height * .1),
             Image(
               image: const AssetImage("assets/images/intro_3.png"),
               width: MediaQuery.sizeOf(context).width * .7,
@@ -188,7 +187,7 @@ class MyPageView extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.w700,
-                  color: Color.fromARGB(255, 0, 0, 0).withOpacity(.4),
+                  color: Color.fromARGB(255, 0, 0, 0),
                 ),
                 textAlign: TextAlign.center,
               ),
