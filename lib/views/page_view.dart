@@ -25,7 +25,7 @@ class MyPageView extends StatelessWidget {
                   right: MediaQuery.sizeOf(context).width * .12,
                   top: MediaQuery.sizeOf(context).height * .05,
                 ),
-                child:  Text(
+                child: Text(
                   "Basic information about your bank account",
                   style: TextStyle(
                     fontSize: 20,
@@ -58,9 +58,15 @@ class MyPageView extends StatelessWidget {
         ),
         Column(
           children: [
-            Image(
-              image: const AssetImage("assets/images/intro_3.png"),
-              width: MediaQuery.sizeOf(context).width * .7,
+            const SizedBox(
+              height: 100,
+            ),
+            Container(
+              height: MediaQuery.of(context).size.height * .25,
+              child: Image(
+                image: const AssetImage("assets/images/intro_3.png"),
+                height: MediaQuery.of(context).size.height * .25,
+              ),
             ),
             Expanded(
               child: Padding(
@@ -137,7 +143,7 @@ class MyPageView extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                         Text(
+                        Text(
                           "I'm truly impressed with its features and user-friendliness",
                           style: TextStyle(
                             fontSize: 15,
@@ -175,14 +181,16 @@ class MyPageView extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: MediaQuery.sizeOf(context).height * .077,),
+            SizedBox(
+              height: MediaQuery.sizeOf(context).height * .077,
+            ),
             Padding(
               padding: EdgeInsets.only(
                 left: MediaQuery.sizeOf(context).width * .12,
                 right: MediaQuery.sizeOf(context).width * .12,
                 top: MediaQuery.sizeOf(context).height * .05,
               ),
-              child:  Text(
+              child: Text(
                 "We value your feedback",
                 style: TextStyle(
                   fontSize: 15,
