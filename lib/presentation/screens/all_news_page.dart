@@ -2,6 +2,27 @@
 
 import 'package:banking_app/dataSet/data.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+
+class ShowNewsFullScreen extends StatelessWidget {
+  const ShowNewsFullScreen({
+    super.key,
+    required this.s,
+  });
+  final String s;
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      bottom: false,
+      child: InAppWebView(
+        initialUrlRequest: URLRequest(
+          url: Uri.parse(s),
+        ),
+      ),
+    );
+  }
+}
 
 class AllNewsPage extends StatelessWidget {
   final PageController controller;
